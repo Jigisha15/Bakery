@@ -22,7 +22,6 @@
     <title>IP</title>
   </head>
   <body>
-main
     <!-- <h1>Shree Ganesh</h1> -->
     <div class="nav">
       <h2>Little Cakery</h2>
@@ -33,18 +32,50 @@ main
         <li>LOGIN / REGISTER</li>
       </ul>
     </div>
-    <div class="top">
-      <div class="top-inner"></div>
-    </div>
+
+    <div class="top"></div>
 
     <div class="middle">
-      <div class="mask1">
-        <img
-          src="assets/cookies.jpg"
-          width="600"
-          height="400"
-          alt=""
-        />
+      <h1>WE HAVE A WIDE RANGE OF FOOD FOR YOUR TASTEBUDS</h1>
+      <div class="middle-prod">
+        <div class="prod-one prod">
+          <div class="inside">
+            <h1>Tart</h1>
+          </div>
+          <img
+            class="prods-img img1"
+            src="assets/item1.jpg"
+            alt=""
+          />
+        </div>
+        <div class="prod-two prod">
+          <img
+            class="prods-img img2"
+            src="assets/item2.jpg"
+            alt=""
+          />
+        </div>
+        <div class="prod-three prod">
+          <img
+            class="prods-img img3"
+            src="assets/item3.jpg"
+            alt=""
+          />
+        </div>
+        <div class="prod-four prod">
+          <img
+            class="prods-img img4"
+            src="assets/item4.jpg"
+            alt=""
+          />
+        </div>
+        <div class="prod-five prod">
+          <img
+            class="prods-img img5"
+            src="assets/item5.jpg"
+            alt=""
+          />
+        </div>
       </div>
     </div>
 
@@ -76,8 +107,16 @@ main
       </h2>
     </div>
 
-    <h1>Shree Ganesh</h1>
-    <h1>new</h1>
-master
+    <script>
+      let htmlElement = document.getElementsByClassName('prods')
+      let arr = [
+        { text: 'Text one' },
+        { text: 'Text two' },
+        { text: 'Text three' },
+      ]
+      for (var i = 0; i < arr.length; i++) {
+        console.log(arr[i])
+      }
+    </script>
   </body>
 </html>
